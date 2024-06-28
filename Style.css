@@ -1,0 +1,238 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    height: 100%;
+    width: 80%;
+    color: #1fa67a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar span{
+    font-size: 24px;
+    font-weight: 500;
+}
+.nav-text{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 30px;
+}
+.nav-text a{
+    text-decoration: none;
+    color: #999999
+}
+.home{
+background-color: #1fa67a;
+padding: 20px 15px;
+color: white !important;
+
+}
+.page-1{
+    width: 100%;
+    height: 70vh;
+    background-image: url(slide.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.page-1-inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 80%;
+    width: 80%;
+}
+.page-1 h2{
+    height: 50px;
+    width: 500px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    background-color: #1fa67ab3;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.inside-text{
+    height: 120px;
+    width: 600px;
+    color: white;
+    font-size: 14px;
+    background-color: #3b3b3bcc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph-1{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.page-2{
+    width: 100%;
+    height: 15vh;
+    background-color: #1fa67a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-2-inside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width:80%;
+}
+.page-2-inside span{
+    font-size: 22px;
+    color: white;
+}
+.page-2-inside a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border: 1px white solid;
+    border-radius: 4px;
+    padding: 15px 30px;
+}
+.page-3main{
+    display: flex;
+    justify-content: center;
+}
+.page-3{
+    margin-top: 50px;
+    width: 80%;
+    height: 60vh;
+}
+.img-container h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.img{
+    height: 50vh;
+    width: 60%;
+    border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.img img{
+    height: 210px;
+    width: 350px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    padding: 5px 5px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 170px;
+    width: 330px;
+    gap: 30px;
+}
+.link{
+    color: #1fa67a;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+.older-post{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 5vh;
+    width: 80%;
+}
+.button button{
+    height: 100%;
+    font-size: 13px;
+    width: 60%;
+    color: white;
+    background-color: #333333;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    width: 100%;
+    background-color: #333333;
+}
+.list{
+    height: 40%;
+    width: 30%;
+    color: #cccccc;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+    list-style: none;
+    font-size: 12px;
+}
+.colorlib{
+    margin-top: 40px;
+    height: 40%;
+    width: 30%;
+    color: #cccccc;
+    font-size: 12px;
+}
+.colorlib img{
+    height: 60px;
+    width: 240px;
+}
+.border{
+    border-bottom: 1px solid #999999;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f1f1f;
+    height: 7vh;
+    width: 100%;
+}
+.a-tag{
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+}
+.a-tag a{
+    text-decoration: none;
+    color: #cccccc;
+}
+.web-address{
+    display: flex;
+    gap: 5px;
+    color: #999999;
+    font-size: 12px;
+}
+.web-address a{
+    text-decoration: none;
+    color: #cccccc;
+}
